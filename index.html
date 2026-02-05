@@ -4,11 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>@import url('https://fonts.cdnfonts.com/css/krabby-patty');</style>
-                
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"&gt;>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css"&gt;>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"&gt;></script>
+ 
     <title>Primera Pagina</title>
 </head>
 <body>
     <style>
+        :root {
+            --color-de-fondo: #8d0801;
+            --color-de-letra: #d68c45;
+            --color-de-barra: #480ca8;
+            --color-de-boton: #585123;
+            --color-extra:#56ab91;
+        }
         body {
             background-color: #c1121f;
         }
@@ -17,7 +28,34 @@
             color: #cdb4db;
             text-align: center;
         }
-    </style>          
-    <h1>Pagina Principal de Sebastian</h1>
+    </style> 
+    <div class="container"></div>
+    <nav class="navbar navbar-light" style="background-color: var(--color-de-letra);">
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>  
+      </ul>
+      </div>
+    </div>
+    </nav>     
+    <div class="jumbotron">
+  <h1 class="display-4">Hola Mundo!</h1>
+  <p class="lead">Esta será mi pagina principal para las practicas de la materia de 
+    Implementa Base de Datos Relacionales en un sistema de información.</p>
+  <hr class="my-4">
+  <p>It uses utility classes for typography and spacing to s.</p>
+  <p class="lead">
+    <a class="btn btn-primary btn-lg" href="#" role="button">Suuuup</a>
+  </p>
+</div>
 </body>
 </html>
